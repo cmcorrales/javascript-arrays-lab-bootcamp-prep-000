@@ -28,5 +28,5 @@ function destructivelyRemoveFirstKitten() {
 function prependKitten(name) {
   var kittens3 = [...kittens]
   kittens2.unshift(name);
-  return kittens2
+  return kittens3
 }
