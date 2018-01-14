@@ -13,6 +13,6 @@ function destructivelyPrependKitten(name) {
 
 function appendKitten(name) {
   var kittens2 = [...kittens]
-  kittens.push(name);
+  kittens2.push(name);
   return kittens2
 }
