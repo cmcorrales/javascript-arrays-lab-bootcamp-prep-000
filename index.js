@@ -27,6 +27,6 @@ function destructivelyRemoveFirstKitten() {
 
 function prependKitten(name) {
   var kittens3 = [...kittens]
-  kittens2.push(name);
+  kittens2.unshift(name);
   return kittens2
 }
