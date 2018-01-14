@@ -16,3 +16,7 @@ function appendKitten(name) {
   kittens2.push(name);
   return kittens2
 }
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop()
+}
