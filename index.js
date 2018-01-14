@@ -10,3 +10,8 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name);
   return kittens
 }
+
+function apendKitten(name) {
+  kittens.unshift(name);
+  return kittens
+}
