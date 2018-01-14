@@ -36,3 +36,9 @@ function removeLastKitten() {
   kittens4.pop()
   return kittens4
 }
+
+function removeLastKitten() {
+  var kittens4 = [...kittens]
+  kittens4.pop()
+  return kittens4
+}
